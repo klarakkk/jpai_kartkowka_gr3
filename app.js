@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
       </head>
       <body>
         <h1>Kolokwium z Dockera</h1>
-        <p>Student: [IMIE NAZWISKO]</p>
+        <p>Student: [Klara Kornaga]</p>
         <p>Obraz: kolokwium-nodejs:latest</p>
         <p>Status: OK</p>
       </body>

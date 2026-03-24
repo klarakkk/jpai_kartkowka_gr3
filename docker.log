@@ -1,0 +1,18 @@
+    1  git clone https://github.com/klarakkk/jpai_kartkowka_gr3.git
+    2  ls
+    3  cd jpai_kartkowka_gr3
+    4  ls
+    5  nano package.json
+    6  nano app.js
+    7  nano Dockerfile
+    8  docker build -t obraz:v5 .
+    9  nano Dockerfile
+   10  docker build -t obraz:v5 .
+   11  docker run -d -p 4123:3000 --name kontener obraz:v5
+   12  docker ps
+   13  curl -f http://localhost:4123/
+   14  docker rm -f kontener
+   15  docker ps
+   16  docker rmi obraz:v5
+   17  docker ps
+   18  history | tee docker.log
